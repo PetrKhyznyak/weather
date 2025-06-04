@@ -49,7 +49,7 @@ function App() {
                 </div>
                         {coord && <Map coord={coord}>
                             <Tooltip direction="top" offset={[0, -10]} opacity={1} permanent={true}>
-                                Температура: {Math.round(weather.main.temp)} °C
+                                Temperature: {Math.round(weather.main.temp)} °C
                             </Tooltip>
                         </Map>}
                     </>
